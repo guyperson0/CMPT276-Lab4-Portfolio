@@ -1,0 +1,45 @@
+.header {
+    background-color: cornflowerblue;
+    padding: 15px 10px;
+}
+
+.header a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.header-links {
+    float: right;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-squish {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+}
+
+h1 {
+    padding-left: 15px;
+}
+
+p {
+    padding-left: 15px;
+    font-family: 'Instrumental sans', sans-serif;
+}
