@@ -60,6 +60,28 @@
     padding-right: 15px;
 }
 
+.social-media-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.social-media-group {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.social-media-icon {
+    height: 250px;
+    width: 250px;
+}
+
+.social-media-label {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 p {
     line-height: 20px;
 }
