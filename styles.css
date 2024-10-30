@@ -35,11 +35,36 @@
     max-width: 600px;
 }
 
-h1 {
+.about-section-left, .about-section-right {
+    display: flex;
+    width: 800px;
+}
+
+.about-section-left {
+    flex-direction: row;
+    padding-left: 12rem;
+}
+
+.about-section-right {
+    margin-left: auto;
+    flex-direction: row-reverse;
+    padding-right: 12rem;
+}
+
+.about-section-right img, .about-section-left img {
+    padding-top: 1rem;
+}
+
+.about-section-left-text {
+    text-align: left;
     padding-left: 15px;
 }
 
+.about-section-right-text {
+    text-align: right;
+    padding-right: 15px;
+}
+
 p {
-    padding-left: 15px;
     line-height: 20px;
 }
